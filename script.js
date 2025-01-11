@@ -58,7 +58,7 @@ else {
     window.open(`https://www.googel.com/search?q=${command}`,"_blank")
 }
 }
-speak("NAMASTEE Dost aapka swagat hai")
+speak("NAMASTEE DOST AAPKA SWAGAT HAI")
 
 setTimeout(()=>{
     btn.innerHTML = "Listening..."
