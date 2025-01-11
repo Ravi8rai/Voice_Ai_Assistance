@@ -58,9 +58,7 @@ else {
     window.open(`https://www.googel.com/search?q=${command}`,"_blank")
 }
 }
-speak("NAMASTEE, SATSHRIAKAL, AADAAB, KEMCHOO, GOODMORNING")
-speak("I am Your Gemini Your AI Voice Assistant what you Find from me")
-speak("I Feel That you tap me")
+speak("NAMASTEE Dost aapka swagat hai")
 
 setTimeout(()=>{
     btn.innerHTML = "Listening..."
