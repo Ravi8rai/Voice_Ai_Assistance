@@ -52,13 +52,13 @@ window.open("https://www.netflix.com/in/","_blank")
     speak("hotstar..., Khul, Gaya, hai")
 window.open("https://www.hotstar.com/in/","_blank")                       
 
-}
+} 
 else {
     speak("search on google...")
     window.open(`https://www.googel.com/search?q=${command}`,"_blank")
 }
 }
-speak("NAMASTE DOSET AAPKA SWAGAT HAI")
+speak("NAMASTE MITRO AAPKA SWAGAT HAI")
 
 setTimeout(()=>{
     btn.innerHTML = "Listening..."
