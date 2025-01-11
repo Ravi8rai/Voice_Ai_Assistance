@@ -51,14 +51,13 @@ window.open("https://www.netflix.com/in/","_blank")
 }else if (command.includes("open hotstar")){
     speak("hotstar..., Khul, Gaya, hai")
 window.open("https://www.hotstar.com/in/","_blank")                       
-
 } 
 else {
     speak("search on google...")
     window.open(`https://www.googel.com/search?q=${command}`,"_blank")
 }
 }
-speak("NAMASTE MITRO AAPKA SWAGAT HAI")
+speak("NAMASTE MITROO AAPKA SWAGAT HAI")
 
 setTimeout(()=>{
     btn.innerHTML = "Listening..."
